@@ -13,13 +13,13 @@ public class ActiveScript : MonoBehaviour
     
     void Update()
     {
-        if (Input.GetKey(KeyCode.S))
+        if (Input.GetKey(KeyCode.V))
         {
             Debug.Log("Object is Activated");
             sphere.SetActive(true);
         }
 
-        if (Input.GetKey(KeyCode.A))
+        if (Input.GetKey(KeyCode.H))
         {
             Debug.Log("Object is Deactivated");
             sphere.SetActive(false);
